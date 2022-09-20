@@ -2,7 +2,7 @@
 
 Enter a number, then press Enter each time to watch it decrement to zero.
 
-```
+```assembly
 00 0E ; ENT R0
 01 0D ; DEC R0
 02 C0 ; JNZ 00

@@ -2,7 +2,7 @@
 
 Enter a blink count, a maximum brightness (typically 255), and a delay (in tenths of a millisecond) between blinks.
 
-```
+```assembly
 00 0E ; ENT R0 (count)
 01 1E ; ENT R1 (max brightness)
 02 2E ; ENT R2 (delay)

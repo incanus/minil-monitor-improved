@@ -2,7 +2,7 @@
 
 Enter a number and a delay (in tenths of a millisecond) between steps to watch the number auto-decrement to zero. 
 
-```
+```assembly
 00 0E ; ENT R0 (number)
 01 1E ; ENT R1 (delay)
 02 0D ; LOOP: DEC R0
